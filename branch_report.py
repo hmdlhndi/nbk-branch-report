@@ -56,7 +56,7 @@ def main():
     withdrawals = fetch_withdrawals()
     flagged = flag_large_withdrawals(withdrawals)
 
-    print("NATIONAL BANK OF KUWAIT BRANCH DAILY REPORT")
+    print("NBK BRANCH DAILY REPORT")
     print("Withdrawals at or above " + format_kwd(FLAG_THRESHOLD_KWD))
     print("")
 
