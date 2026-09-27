@@ -58,6 +58,7 @@ def main():
 
     print("NATIONAL BANK OF KUWAIT BRANCH DAILY REPORT")
     print("Withdrawals at or above " + format_kwd(FLAG_THRESHOLD_KWD))
+    print("--------------------------------------")
     print("")
 
     if not flagged:
